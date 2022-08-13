@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("./fonts/Helvetica Neue/HelveticaNeue-Medium.otf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("./fonts/Helvetica Neue/HelveticaNeue.otf");
+    font-weight: 400;
+}
+  
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("./fonts/Helvetica Neue/HelveticaNeue-Bold.otf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("./fonts/Helvetica Neue/HelveticaNeue-CondensedBold.otf");
+    font-weight: 700;
+}
+
+body {
+    font-family: "Helvetica Neue";
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    margin: 0;
+}
+h1 {
+    font-size: 300%;
+}
+h2 {
+    font-size: 240%;
+}
+h3 {
+    font-size: 200%;
+}
+h4 {
+    font-size: 160%;
+}
+h5 {
+    font-size: 120%;
+}
+h6 {
+    font-size: 100%;
+}
+.full-width {
+    width: 100% !important;
+}
+.full-height {
+    height: 100% !important;
+}
+p, b {
+    font-weight: 400;
+    color: rgb(79, 91, 109);
+    font-size: 15px;
+    margin: 0;
+}
+input:focus {
+    outline: none;
+}
+b {
+    font-weight: 600;
+}
+.bold {
+    font-weight: 700;
+}
